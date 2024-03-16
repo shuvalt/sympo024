@@ -3,10 +3,10 @@
  * @see https://v0.dev/t/d6mbXyN9coX
  * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
  */
-export default function testimonials() {
+export default function Contact() {
   return (
 
-    <div className="w-full py-12 lg:py-24 items-center justify-center">
+    <div id="contact" className="w-full py-12 lg:py-24 items-center justify-center">
       <div className=" w-full flex items-center justify-center">
         <div className="flex flex-col items-center space-y-4">
           <div className="text-center space-y-2">

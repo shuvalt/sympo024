@@ -42,7 +42,7 @@ const Header = () => {
           <li><a href="#home" ref={anchorRef} onClick={scrollToAbout}>Home</a></li>
           <li><a href="#about" ref={anchorRef} onClick={scrollToAbout}>About</a></li>
           <li><a href="#events" ref={anchorRef} onClick={scrollToAbout}>Events</a></li>
-          <li><a href="#" ref={anchorRef} onClick={scrollToAbout}>Contact</a></li>
+          <li><a href="#contact" ref={anchorRef} onClick={scrollToAbout}>Contact</a></li>
         </ul> 
       </nav>
     </header>
