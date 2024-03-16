@@ -5,18 +5,18 @@ export const metadata = {
 
 import Hero from '@/components/hero'
 import Features from '@/components/features'
-import Newsletter from '@/components/newsletter'
+import Newsletter from '@/components/contributors'
 import Zigzag from '@/components/zigzag'
-import Testimonials from '@/components/testimonials'
+import Testimonials from '@/components/about'
 
 export default function Home() {
   return (
     <>
       <Hero />
-      <Features />
-      <Zigzag />
       <Testimonials />
-      <Newsletter />
+      <Zigzag />
+      <Features />
+      <Newsletter />   
     </>
   )
 }

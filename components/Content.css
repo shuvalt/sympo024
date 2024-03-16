@@ -1,0 +1,106 @@
+.content {
+  font-family: monospace;
+  font-weight: bold;
+  font-size:1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px 3vh;
+  align-items: center;
+}
+
+.logoContainer {
+  margin: 0px 0px 0px 0px;
+  text-align: center;
+}
+.logoContainer img {
+  width: 100%;
+}
+
+.dateContainer{
+  margin-bottom: 2%;
+  position: relative;
+  animation: date-slide-in 1s ease-in-out forwards;
+  overflow: hidden;
+}
+
+.numbers{
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.timerContainer{
+  width:70%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  gap:20px;
+}
+
+.timer {
+  width:35%;
+  font-size: 180%;
+  font-weight: bold;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); 
+  gap: 15px;
+  place-items: center;
+}
+
+.timerNumber{
+  font-size: 1.3rem;
+  border: 1px solid white;
+  box-shadow: 10px 10px 10px rgba(172, 186, 192, 0.3);
+  overflow: hidden;
+  margin-top: 20px;
+  position: relative;
+  animation: slide-in 1s ease-in-out forwards;
+  width:100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.timerNumber p small{
+  font-size: 50%;
+}
+
+.registerButton{
+  background-color: #F23D3D; 
+  border: none;
+  color: white; 
+  padding: 10px 20px; 
+  border-radius: 5px;
+  font-size: 20px;
+  cursor: pointer;
+  
+}
+
+@keyframes slide-in {
+  from { transform: translateX(-1000%); }
+  to { transform: translateX(0); } 
+}
+
+@keyframes date-slide-in {
+  from { transform: translateX(+500%); }
+  to { transform: translateX(0); } 
+}
+@media screen and (max-width:620px) {
+  .timerNumber p small{
+    font-size: 40%;
+  }
+  
+}
+
+
+@media screen and (max-width:900px) {
+  .timer{
+    width:50%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .timerContainer {
+    width: 100%; 
+  }
+
+}
