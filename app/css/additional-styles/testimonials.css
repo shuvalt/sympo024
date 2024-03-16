@@ -1,0 +1,10 @@
+.google-map{
+
+    width: 100%;
+    /* filter: grayscale(100%) invert(92%) contrast(83%); */
+    filter: invert(90%) hue-rotate(180deg)
+
+  }
+
+
+
