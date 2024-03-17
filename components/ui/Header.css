@@ -1,11 +1,102 @@
-.logo {
-  margin-left: 30%;
-  width: 100px;
-  margin-top: 40%;
-  flex: 0 0 auto;
+/* Header styles */
+header {
+  background:rgb (66, 66, 66);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  height: 15vh;
+  width: 100%; /* Ensure full width */
 }
 
-header {
+
+
+/* Logo styles */
+.logo {
+  width: 100px; /* Adjust width as needed */
+  flex: 0 0 auto; /* Prevent logo from shrinking on smaller screens */
+}
+
+/* Navigation styles */
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin: 0 15px; /* Adjust spacing between links */
+  font-size: 1.5rem; /* Adjust font size as needed */
+}
+
+nav li a {
+  text-decoration: none;
+  color: #fcfbfb; /* Set link color */
+  position: relative; /* Enable underline animation */
+}
+
+nav li a::after {
+  transition: width 0.3s ease-out;
+  background-color: #4285f4; /* Underline color */
+  content: "";
+  position: absolute;
+  height: 4px;
+  right: 0;
+  width: 0;
+  bottom: -10px; /* Adjust underline position */
+  border-radius: 10px;
+}
+
+nav li a:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 700px) {
+  .logo {
+    margin-left: 10%; /* Adjust logo position on smaller screens */
+  }
+
+  li a {
+    font-size: 1rem; /* Adjust font size for smaller screens */
+  }
+}
+
+@media screen and (max-width: 810px) {
+  li a {
+    font-size: 1.3rem; /* Optional: Adjust font size for medium screens */
+  }
+}
+
+@media screen and (max-width: 955px) {
+  .logo {
+    margin-top: 25%; /* Optional: Adjust logo position for extra small screens */
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* before */
+/* .logo {
+  width: 100px;
+  
+  flex: 0 0 auto;
+} */
+
+/* header {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -23,13 +114,12 @@ nav ul {
 }
 
 nav li {
-  margin: 0px 15px;
+  margin: 0px 15px 0px 15px;
   font-size: 1.5rem;
   padding: 1px;
-  
-}
+} */
 
-nav li a{
+/* nav li a{
   position: relative;
 }
 nav li a::after {
@@ -42,21 +132,19 @@ nav li a::after {
   width: 0;
   bottom: -10px;
   border-radius: 10px;
-}
+} */
 
-nav li a:hover::after {
+/* nav li a:hover::after {
   width: 100%;
   left: 0%;
-}
+} */
 
-.headerNav{
-  margin-top: 25px;
-}
 
-a {
+
+/* a {
   text-decoration: none;
-}
-
+} */
+/* 
 @media screen and (max-width : 700px) {
   .logo{
     margin-left: 10%;
@@ -65,16 +153,16 @@ a {
   li a{
     font-size: 1rem;
   }
-}
+} */
 
-@media screen and (max-width:810px){
+/* @media screen and (max-width:810px){
   li a{
     font-size: 1.3rem;
   }
-}
-
+} */
+/* 
 @media screen and (max-width : 955px){
   .logo{
     margin-top: 25%;
   }
-}
+} */

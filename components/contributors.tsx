@@ -4,7 +4,7 @@ export default function Contributors() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
 
         {/* CTA box */}
-        <div className="relative bg-purple-600 py-10 px-8 md:py-16 md:px-12" data-aos="fade-up">
+        <div className="relative bg-#153B44 py-10 px-8 md:py-16 md:px-12" data-aos="fade-up">
 
           {/* Background illustration */}
           <div className="absolute right-0 top-0 -ml-40 pointer-events-none" aria-hidden="true">
@@ -19,18 +19,33 @@ export default function Contributors() {
             </svg>
           </div>
 
-          <div className="relative flex flex-col lg:flex-row justify-between items-center">
+          <div className="relative flex justify-between items-center">
 
             {/* CTA content */}
-            <div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
-              <h3 className="h3 text-white mb-2">Website By FINAL YEAR IT</h3>
-              <p className="text-purple-200 text-lg">PARTHASARATHY R</p>
-              <p className="text-purple-200 text-lg">KAAVIYA S</p>
-              <p className="text-purple-200 text-lg">MUTHURAJ S</p>
-              <p className="text-purple-200 text-lg">JAYANTHINI R</p>
-              <p className="text-purple-200 text-lg">LOGESHWARI K</p>
-              <p className="text-purple-200 text-lg">BARATH S</p>
+            <div className="mb-6 lg:mr-16 lg:mb-0 text-center  lg:text-left lg:w-1/2">
+              <h3 className="h3 text-white mb-2 text-base">Website By FINAL YEAR IT</h3>
+              <p className="text-purple-200 text-sm">PARTHASARATHY R</p>
+              <p className="text-purple-200 text-sm">KAAVIYA S</p>
+              <p className="text-purple-200 text-sm">MUTHURAJ S</p>
+              <p className="text-purple-200 text-sm">JAYANTHINI R</p>
+              <p className="text-purple-200 text-sm">LOGESHWARI K</p>
+              <p className="text-purple-200 text-sm">BARATH S</p>
             </div>
+            <div className="relative flex flex-col lg:flex-row justify-between items-center">
+
+{/* CTA content */}
+<div className="mb-6 lg:mr-16 lg:mb-0 text-center lg:text-left lg:w-1/2">
+  <h3 className="h3 text-white mb-2 text-base">Website By FINAL YEAR IT</h3>
+  <p className="text-purple-200 text-sm">PARTHASARATHY R</p>
+  <p className="text-purple-200 text-sm">KAAVIYA S</p>
+  <p className="text-purple-200 text-sm">MUTHURAJ S</p>
+  <p className="text-purple-200 text-sm">JAYANTHINI R</p>
+  <p className="text-purple-200 text-sm">LOGESHWARI K</p>
+  <p className="text-purple-200 text-sm">BARATH S</p>
+</div>
+</div>
+
+            
 
           </div>
 
