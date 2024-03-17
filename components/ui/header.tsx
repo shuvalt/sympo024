@@ -3,7 +3,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import './Header.css';
 import logo from '../../public/images/aulogo.png';
 import Image from 'next/image';
-
+import Link from 'next/link';
+import MobileMenu from './mobile-menu';
 
 const Header = () => {
   const [showContent, setShowContent] = useState(false);
