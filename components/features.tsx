@@ -5,7 +5,6 @@ import Secondwin222 from '@/public/images/Secondwin222.jpg'
 import Beg3 from '@/public/images/Beg3.jpeg'
 import Logo2 from '@/public/images/Logo2.jpg'
 import Sense5 from '@/public/images/Sense5.jpeg'
-import Home from '@/app/(default)/page'
 
 export default function Features() {
   return (
@@ -116,7 +115,6 @@ export default function Features() {
           </div>
 
         </div>
-       
       </div>
     </section>
   )
