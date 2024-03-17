@@ -43,7 +43,7 @@ const Header = () => {
   }, []);
 
   return (
-    <header className={`header ${isSticky ? 'fixed bg-gray-900 justify-between items-center p-4 h-15 w-full' : ''}`}>
+    <header className='header'>
       <section id='home' className=''>
         <div className="logoName">
           <Image className="logo" src={logo} alt='logo' />
