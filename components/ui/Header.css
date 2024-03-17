@@ -1,0 +1,80 @@
+.logo {
+  margin-left: 30%;
+  width: 100px;
+  margin-top: 40%;
+  flex: 0 0 auto;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  height: 15vh;
+  width: 100%;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+}
+
+nav li {
+  margin: 0px 15px;
+  font-size: 1.5rem;
+  padding: 1px;
+  
+}
+
+nav li a{
+  position: relative;
+}
+nav li a::after {
+  transition: width 0.3s ease-out;
+  background-color: #4285f4;
+  content: "";
+  position: absolute;
+  height: 4px;
+  right: 0;
+  width: 0;
+  bottom: -10px;
+  border-radius: 10px;
+}
+
+nav li a:hover::after {
+  width: 100%;
+  left: 0%;
+}
+
+.headerNav{
+  margin-top: 25px;
+}
+
+a {
+  text-decoration: none;
+}
+
+@media screen and (max-width : 700px) {
+  .logo{
+    margin-left: 10%;
+    width: 100px;
+  }
+  li a{
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width:810px){
+  li a{
+    font-size: 1.3rem;
+  }
+}
+
+@media screen and (max-width : 955px){
+  .logo{
+    margin-top: 25%;
+  }
+}

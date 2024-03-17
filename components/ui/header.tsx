@@ -1,7 +1,34 @@
-import Link from 'next/link'
-import MobileMenu from './mobile-menu'
+"use client"
+import React, { useEffect, useRef, useState } from 'react';
+import './Header.css';
+import logo from '../../public/images/aulogo.png';
+import Image from 'next/image';
 
-export default function Header() {
+
+const Header = () => {
+  const [showContent, setShowContent] = useState(false);
+  const scrollRef = useRef<HTMLElement | null>(null);
+  const anchorRef = scrollRef as React.RefObject<HTMLAnchorElement>;
+  const scrollToAbout = () => {
+    if (scrollRef.current) {
+      scrollRef.current.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
+  useEffect(() => {
+     scrollToAbout();
+  }, []);
+
+  useEffect(() => {
+    const handleResize = () => {
+      const width = window.innerWidth;
+      setShowContent(width >= 768);
+    };
+    window.addEventListener('resize', handleResize);
+    handleResize();
+    return () => window.removeEventListener('resize', handleResize);
+  }, []);
+  
   return (
     <header className="absolute w-full z-30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
@@ -33,9 +60,6 @@ export default function Header() {
                   Sign up
                 </Link>
               </li>
-              <li>
-              <button type="button" className=" focus:outline-none text-white bg-red-700 hover:bg-red-800 focus:ring-4 focus:ring-red-300 font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:bg-red-600 dark:hover:bg-red-700 dark:focus:ring-red-900">Red</button> 
-              </li>
             </ul>
           </nav>
 
@@ -46,3 +70,5 @@ export default function Header() {
     </header>
   )
 }
+
+export default Header

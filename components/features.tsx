@@ -32,9 +32,9 @@ export default function Features() {
                 <path className="stroke-current text-purple-300" d="M43 42h-9M43 37h-9" strokeLinecap="square" strokeWidth="2" />
               </svg> */}
               <br/>
-              <h4 className="font-bold text-2xl ... font-mono h4 mb-2">PHOTO HUNT</h4>
+              <h4 className="font-bold text-2xl ...  h4 mb-2">PHOTO HUNT</h4>
               {/* <br/> */}
-              <p className="font-mono tracking-wide text-lg text-gray-400 text-center">"At the symposium, participants are tasked with capturing the beauty of insects, sunrise, flowers at  AUBIT campus through unedited photographs. The competition emphasizes authenticity and will be scrutinized by a panel of judges. The winner will leave a lasting impression on the audience."</p>
+              <p className=" tracking-wide text-lg text-gray-400 text-center">"At the symposium, participants are tasked with capturing the beauty of insects, sunrise, flowers at  AUBIT campus through unedited photographs. The competition emphasizes authenticity and will be scrutinized by a panel of judges. The winner will leave a lasting impression on the audience."</p>
             </div>
 
             {/* 2nd item */}
@@ -46,8 +46,8 @@ export default function Features() {
                 <path className="stroke-current text-purple-300" d="M26 28h12M26 32h12M26 36h5" strokeWidth="2" strokeLinecap="square" />
               </svg> */}
               <br/>
-              <h4 className="font-bold text-2xl ... font-mono h4 mb-2">SECONDS T0 WIN </h4>
-              <p className="font-mono tracking-wide text-lg text-gray-400 text-center">"Seconds To Win" is a thrilling event with three 60-second challenges: "Coin Tower Triumph" (coin stacking), "Paper Cup Challenge" (propelling a cup using a straw), and "Cup Ball Blast" (blowing a ball into cups). The event spans three levels, each with a different time limit. Agility, focus, and controlled breaths are key."</p>
+              <h4 className="font-bold text-2xl ...  h4 mb-2">SECONDS T0 WIN </h4>
+              <p className=" tracking-wide text-lg text-gray-400 text-center">"Seconds To Win" is a thrilling event with three 60-second challenges: "Coin Tower Triumph" (coin stacking), "Paper Cup Challenge" (propelling a cup using a straw), and "Cup Ball Blast" (blowing a ball into cups). The event spans three levels, each with a different time limit. Agility, focus, and controlled breaths are key."</p>
             </div>
 
             {/* 3rd item */}
@@ -62,8 +62,8 @@ export default function Features() {
                 </g>
               </svg> */}
               <br/>
-              <h4 className="font-bold text-2xl ... font-mono h4 mb-2">BEG BORROW STEAL</h4>
-              <p className="font-mono tracking-wide text-lg text-gray-400 text-center">"Beg Borrow Steal: Join the ultimate challenge where participants race against the clock to acquire items through wit, negotiation, and resourcefulness. Compete, strategize, and triumph in this thrilling game of cunning and creativity!"</p>
+              <h4 className="font-bold text-2xl ...  h4 mb-2">BEG BORROW STEAL</h4>
+              <p className=" tracking-wide text-lg text-gray-400 text-center">"Beg Borrow Steal: Join the ultimate challenge where participants race against the clock to acquire items through wit, negotiation, and resourcefulness. Compete, strategize, and triumph in this thrilling game of cunning and creativity!"</p>
             </div>
 
             {/* 4th item */}
@@ -77,9 +77,9 @@ export default function Features() {
                 </g>
               </svg> */}
               <br/>
-              <h4 className="font-bold text-2xl ... font-mono h4 mb-2">LOGO QUEST</h4>
+              <h4 className="font-bold text-2xl ...  h4 mb-2">LOGO QUEST</h4>
               {/* <img className="float-left ..." src="../Sympo024/public"></img> */}
-              <p className="font-mono tracking-wide text-lg text-gray-400 text-center ">"The logo identification game challenges players to recognize and correctly identify various logos from different "Brands and Application logos". Players are presented with images of logos, and their task is to quickly and accurately name the corresponding brands."</p>
+              <p className=" tracking-wide text-lg text-gray-400 text-center ">"The logo identification game challenges players to recognize and correctly identify various logos from different "Brands and Application logos". Players are presented with images of logos, and their task is to quickly and accurately name the corresponding brands."</p>
             </div>
 
             {/* 5th item */}
@@ -92,8 +92,8 @@ export default function Features() {
                 </g>
               </svg> */}
               {/* &nbsp;
-              <h4 className="font-bold text-2xl ... font-mono h4 mb-2">EVENT 04</h4> 
-              <p className="font-mono tracking-wide text-lg text-gray-400 text-center"></p>
+              <h4 className="font-bold text-2xl ...  h4 mb-2">EVENT 04</h4> 
+              <p className=" tracking-wide text-lg text-gray-400 text-center"></p>
             </div> */}
 
             {/* 6th item */}
@@ -109,8 +109,8 @@ export default function Features() {
               </svg> */}
                <Image className="rounded-full" src={Sense5} width={100} height={48} alt="5th Sense" />
                &nbsp;
-              <h4 className="font-bold text-2xl ... font-mono h4 mb-2">5th SENSE</h4>
-              <p className="font-mono tracking-wide text-lg text-gray-400 text-center">"Participants showcase their skills in vegetable slicing in just 1 minute, then tackle a dressing challenge in 5 minutes. The ultimate round sees teams answering questions in 10 minutes, with limited reading time and fun tasks if needed. A thrilling tiebreaker determines the champion among teams of two."</p>
+              <h4 className="font-bold text-2xl ...  h4 mb-2">5th SENSE</h4>
+              <p className=" tracking-wide text-lg text-gray-400 text-center">"Participants showcase their skills in vegetable slicing in just 1 minute, then tackle a dressing challenge in 5 minutes. The ultimate round sees teams answering questions in 10 minutes, with limited reading time and fun tasks if needed. A thrilling tiebreaker determines the champion among teams of two."</p>
             </div>
 
           </div>
